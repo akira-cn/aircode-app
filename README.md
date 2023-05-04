@@ -4,6 +4,8 @@ A simple webapp framework for [AirCode](https://aircode.io/).
 
 ## Usage
 
+0. Install aircode-app as dependencies.
+
 1. Entry js file:
 
 ```js
@@ -72,6 +74,10 @@ body {
 // script.js
 console.log('hello world');
 ```
+
+**You may use this [template](https://aircode.cool/gkek5d5ctr) for startup.**
+
+---
 
 That's all.
 
