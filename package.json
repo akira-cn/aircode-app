@@ -1,6 +1,6 @@
 {
   "name": "aircode-app",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A simple webapp framework for AirCode.",
   "main": "index.js",
   "scripts": {
@@ -12,5 +12,8 @@
   "devDependencies": {
     "eslint": "^5.16.0",
     "eslint-config-sprite": "^1.0.6"
+  },
+  "dependencies": {
+    "esbuild": "^0.17.19"
   }
 }
