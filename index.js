@@ -17,8 +17,9 @@ class App {
     };
   }
 
-  use(aspect) {
-    return this.interceptor.use(aspect);
+  use(...aspects) {
+    aspects.flat().forEach(aspect => this.interceptor.use(aspect));
+    return this;
   }
 
   display(template, args = {}) {
